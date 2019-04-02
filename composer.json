@@ -1,0 +1,22 @@
+{
+    "name": "skyisboss/prfox-core",
+    "description": "Prfox PHP-Framework",
+    "authors": [
+        {
+            "name": "skyisboss",
+            "email": "skyisboss@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prfox\\": "src/"
+        },
+        "files": [
+            "src/Prfox.php",
+            "src/assets/function.php"
+        ]
+    }
+}
